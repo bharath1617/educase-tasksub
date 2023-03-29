@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    padding: 0 40vw;
+    padding-bottom: 4vw;
+}
+
+.content>p {
+    font-size: 19px;
+    color: grey;
+}
+
+.login-or-create {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.login-or-create>button {
+    padding: 2vh;
+    margin-bottom: 2vh;
+    border-radius: 10px;
+    border-color: white;
+    border: none;
+
+}
+
+.login-or-create>.create {
+    background-color: blueviolet;
+    color: white;
+}
+
+.login-or-create>.login {
+    background-color: rgb(187, 179, 179);
+}
+
+@media (max-width: 600px) {
+   .content{
+    padding: 0 10vw;
+}
+}
+@media (max-width: 1000px) {
+    .content{
+     padding: 0 20vw;
+ }
+ }
+
+/* login new account */
+.login-container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.login-container > div{
+    margin-top: 2vh;
+}
+label{
+    color:#1473e6
+}
+.login-container > div > input{
+    padding: 2vh;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    background-color: #eaeaea;
+    border: 1px solid  #999898;
+}
+
+.createlogin {
+    background-color: blueviolet;
+    color: white;
+    margin-top: 15vh;
+    padding: 2vh;
+    border-radius: 10px;
+    border: none;
+}
+
+
+/* finalpage */
+
+.final>h3 {
+    width: 100%;
+    padding: 2vw 0;
+    background: white;
+    margin-left: 5%;
+
+}
+
+.ingcontent>img {
+    display: inline-block;
+    width: 15vw;
+    height: 15vh;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.ingcontent {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 3vw;
+}
+
+.sec-container {
+    background-color: #eaeaea;
+}
+
+.decrotation {
+    border: 1px solid grey;
+    border-style: dashed;
+    margin-bottom: 100%;
+}
+
+.decrotation2 {
+    border: 1px solid grey;
+    border-style: dashed;
+}
+
+.sec-container0 {
+    margin-left: 5%;
+    
+}
+
+/* .sec-container0 > p{
+    width: 28vw;
+} */

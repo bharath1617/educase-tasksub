@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>NEW ACCOUNT</title>
+    <style>
+        body {
+            background-color: #eaeaea;
+        }
+        .textcolor{
+            color:blueviolet;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="login-container">
+        <h1>create your Popx account</h1>
+        <div>
+            <lable for="name" class="textcolor">Full Name</lable><br>
+            <input type="text" name="name" id="name" required class="input" placeholder="Enter FullName">
+        </div>
+        <div>
+            <lable for="number" class="textcolor">Phone number</lable><br>
+            <input type="number" id="number" placeholder="Enter Number" required>
+        </div>
+        <div>
+            <lable for="email" class="textcolor">Email address</lable><br>
+            <input type="email" id="email" placeholder="Enter Email" required>
+        </div>
+        <div>
+            <lable for="password" class="textcolor">Password:</lable><br>
+            <input type="password" id="password" placeholder="Enter Password" required>
+        </div>
+        <div>
+            <lable for="comname" class="textcolor">Company name</lable><br>
+            <input type="text" id="comname" placeholder="Enter Company name" required>
+        </div>
+        <div>
+            <lable>Are you an Agency?*</lable>
+            <div>
+            <lable for="yes">Yes</lable>
+            <input type="radio" name="yesorno" id="yes">
+            <lable for="no">No</lable>
+            <input type="radio" id="no" name="yesorno">
+             </div>
+        </div>
+        <br>
+        <button type="submit" class="createlogin" onclick="window.location.href = 'final.html'"><b>Create
+                Account</b></button>
+    </section>
+</body>
+
+</html>
